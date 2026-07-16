@@ -31,6 +31,7 @@ a , b = map (float , input ("enter points a and b ").split())
 mag = sp.sqrt(a**2+b**2)
 u1 = a/mag
 u2 = b/mag
-
+#making changes in this file to practice git
 Duf = (fx_val*u1 + fy_val*u2)
 print(f"\nDirectional Derivative Duf = {(Duf)}")
+
